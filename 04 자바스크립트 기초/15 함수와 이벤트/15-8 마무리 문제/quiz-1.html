@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>연습문제 1</title>
+</head>
+
+<body>
+	<script>
+		/*
+		userInput1 = parseInt(prompt("첫 번째 수를 입력하세요."));
+		userInput2 = parseInt(prompt("두 번째 수를 입력하세요."));
+
+		function sumMulti(x, y) {
+			return userInput1 + userInput2;
+		}
+
+		if ((userInput1 !== null) & (!isNaN(userInput1)) & (userInput2 !== null) & (!isNaN(userInput2))) {
+			if (userInput1 === userInput2) {
+				console.log(userInput1 * userInput2);
+			}
+			else {
+				console.log(sumMulti(userInput1, userInput2))
+			}
+		}
+		*/
+		
+    function sumMulti(x, y) {
+      if (x === y) 
+        return x * y;
+      else 
+        return x + y;
+    }
+
+    console.log(sumMulti(5, 10));
+    console.log(sumMulti(10, 10));
+	</script>
+</body>
+
+</html>
